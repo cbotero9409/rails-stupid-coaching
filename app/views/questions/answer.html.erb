@@ -1,0 +1,15 @@
+<div class="p-3">
+  <div class="row">
+    <div class="card col-6">
+      <div class="card-body">
+        Question: <%= @question %>
+      </div>
+    </div>
+    <div class="card col-6">
+      <div class="card-body">
+        Answer: <%= @answer%>
+      </div>
+    </div>
+  </div>
+  <%= link_to 'Ask a new question', ask_path %>
+</div>
